@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
             JetPackComposerTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Text(
-                        text = "Hello World",
+                        text = getString(R.string.hello_world),
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
